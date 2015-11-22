@@ -7,16 +7,16 @@
 //
 
 #include "Chord.h"
+#include <iostream>
 
-
-
-
-Chord::Chord(int intervals[])
-{
-    intervals = intervals;
-}
-
-Chord::Chord()
-{
+int Chord::GetRandomMinorNote() {
     
+    int minorNoteIntervals[] = {0,2,3,5,7,9,10,12};
+    
+    int index = rand() % (sizeof(minorNoteIntervals)/sizeof(*minorNoteIntervals));
+    
+    std::cout << index;
+    std::cout << " index\n";
+    
+    return minorNoteIntervals[index];
 }

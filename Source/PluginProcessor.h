@@ -12,7 +12,7 @@
 #define PLUGINPROCESSOR_H_INCLUDED
 
 #include "../JuceLibraryCode/JuceHeader.h"
-
+#include "Chord.h"
 
 //==============================================================================
 /**
@@ -64,7 +64,16 @@ public:
     //==============================================================================
     void getStateInformation (MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
-
+    
+    // my own variables:
+    MidiMessage cachedNote;
+    MidiKeyboardState keyboardState;
+    Chord chordStructure;
+    
+    // listener variables
+    float keySlider;
+    float modeSlider;
+    
 private:
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TestAudioProcessor)

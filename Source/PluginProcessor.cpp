@@ -10,7 +10,7 @@
 
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
-
+#include "Chord.h"
 
 //==============================================================================
 TestAudioProcessor::TestAudioProcessor()
@@ -151,19 +151,30 @@ void TestAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& mi
     int time;
     MidiMessage m;
     
+    std::cout << "mode slider: ";
+    std::cout << modeSlider;
+    std::cout << "\n";
+    
     for(MidiBuffer::Iterator i (midiMessages); i.getNextEvent(m, time);)
     {
         if(m.isNoteOn()) {
             
-            m = MidiMessage::noteOn(m.getChannel(), m.getNoteNumber(), m.getFloatVelocity());
-
-            processedMidi.addEvent(m, time);
+            int noteNumber = 60 + (int)keySlider;
+            noteNumber += chordStructure.GetRandomMinorNote();
             
-            midiMessages.swapWith(processedMidi);
+            m = MidiMessage::noteOn(m.getChannel(), noteNumber, m.getFloatVelocity());
+            cachedNote = m;
+            
+            processedMidi.addEvent(m, time);
         }
         
-        
+        else if(m.isNoteOff())
+        {
+            MidiMessage n = MidiMessage::allNotesOff(m.getChannel());
+            processedMidi.addEvent(n, time);
+        }
     }
+    midiMessages.swapWith(processedMidi);
 }
 
 //==============================================================================

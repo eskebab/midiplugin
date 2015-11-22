@@ -10,14 +10,12 @@
 #define __Test__Chord__
 
 #include <stdio.h>
+#include <stdlib.h>
 class Chord {
-    
-    int intervals[];
-    
-    
+
 public:
-    Chord(int intervals[]);
-    Chord();
+    
+    int GetRandomMinorNote();
 };
 
 
