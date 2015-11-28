@@ -14,13 +14,14 @@
 
 //==============================================================================
 TestAudioProcessorEditor::TestAudioProcessorEditor (TestAudioProcessor& p)
-    : AudioProcessorEditor (&p), processor (p)
+    : AudioProcessorEditor (&p), pluginProcessor (p)
 {
     // Make sure that before the constructor has finished, you've set the
     // editor's size to whatever you need it to be.
     setSize (200, 200);
     
-    // these define the parameters of our slider object
+    // not the issue:
+    addAndMakeVisible (&key);
     key.setSliderStyle (Slider::Rotary);
     key.setRange(0.0, 12.0, 1.0);
     key.setTextBoxStyle (Slider::NoTextBox, false, 90, 0);
@@ -29,6 +30,7 @@ TestAudioProcessorEditor::TestAudioProcessorEditor (TestAudioProcessor& p)
     key.setValue(0.0);
     
     // these define the parameters of our slider object
+    addAndMakeVisible (&mode);
     mode.setSliderStyle (Slider::Rotary);
     mode.setRange(0.0, 1.0, 1.0);
     mode.setTextBoxStyle (Slider::NoTextBox, false, 90, 0);
@@ -36,19 +38,20 @@ TestAudioProcessorEditor::TestAudioProcessorEditor (TestAudioProcessor& p)
     mode.setTextValueSuffix ("Mode");
     mode.setValue(0.0);
     
-    // this function adds the slider to the editor
-    addAndMakeVisible (&key);
-    addAndMakeVisible (&mode);
-    
     // add the listener to the slider
-    key.addListener (this);
+    
     mode.addListener (this);
+    key.addListener (this);
 }
 
 void TestAudioProcessorEditor::sliderValueChanged (Slider* slider)
 {
-   processor.keySlider = key.getValue();
-   processor.modeSlider = mode.getValue();
+    if(slider == &key) {
+        pluginProcessor.keySlider = key.getValue();
+    }
+    else if(slider == &mode) {
+        pluginProcessor.modeSlider = mode.getValue();
+    }
 }
 
 TestAudioProcessorEditor::~TestAudioProcessorEditor()
@@ -71,7 +74,8 @@ void TestAudioProcessorEditor::resized()
     // subcomponents in your editor..
     
     // sets the position and size of the slider with arguments (x, y, width, height)
-    key.setBounds (40, 30, 20, getHeight() - 60);
     
-    mode.setBounds (40, 80, 20, getHeight() - 60);
+    
+    mode.setBounds (40, 80, 40, 40);
+    key.setBounds (40, 30, 40, 40);
 }

@@ -155,6 +155,10 @@ void TestAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& mi
     std::cout << modeSlider;
     std::cout << "\n";
     
+    std::cout << "key slider: ";
+    std::cout << keySlider;
+    std::cout << "\n";
+    
     for(MidiBuffer::Iterator i (midiMessages); i.getNextEvent(m, time);)
     {
         if(m.isNoteOn()) {

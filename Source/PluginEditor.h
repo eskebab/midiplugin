@@ -31,13 +31,10 @@ public:
     
     void sliderValueChanged (Slider* slider) override;
     
-    Slider keySlider;
-    Slider modeSlider;
-        
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
-    TestAudioProcessor& processor;
+    TestAudioProcessor& pluginProcessor;
     
     Slider key;
     Slider mode;
