@@ -164,8 +164,11 @@ void TestAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& mi
         if(m.isNoteOn()) {
             
             int noteNumber = 60 + (int)keySlider;
-            noteNumber += chordStructure.GetRandomMinorNote();
-            
+
+            noteNumber = (modeSlider == 0) ?
+                    noteNumber + chordStructure.GetRandomMinorNote() :
+                    noteNumber + chordStructure.GetRandomMajorNote();
+
             m = MidiMessage::noteOn(m.getChannel(), noteNumber, m.getFloatVelocity());
             cachedNote = m;
             

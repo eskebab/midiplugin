@@ -16,6 +16,7 @@ class Chord {
 public:
     
     int GetRandomMinorNote();
+    int GetRandomMajorNote();
 };
 
 
