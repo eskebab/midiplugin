@@ -19,7 +19,7 @@
 /**
 */
 class TestAudioProcessorEditor  : public AudioProcessorEditor,
-private Slider::Listener
+private Slider::Listener, private Button::Listener
 {
 public:
     TestAudioProcessorEditor (TestAudioProcessor&);
@@ -38,8 +38,13 @@ private:
     
     Slider key;
     Slider mode;
+    ToggleButton toggleChordMode;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TestAudioProcessorEditor)
+
+    void ButtonClicked(Button *button);
+
+    void buttonClicked(Button *button);
 };
 
 

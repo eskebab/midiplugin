@@ -158,21 +158,42 @@ void TestAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& mi
     std::cout << "key slider: ";
     std::cout << keySlider;
     std::cout << "\n";
+
+    std::cout << "chord button: ";
+    std::cout << chordMode;
+    std::cout << "\n";
+
+
+    int chordArrayLength = 6;
     
     for(MidiBuffer::Iterator i (midiMessages); i.getNextEvent(m, time);)
     {
         if(m.isNoteOn()) {
-            
-            int noteNumber = 60 + (int)keySlider;
+            int noteNumber = m.getNoteNumber() + (int) keySlider;
 
-            noteNumber = (modeSlider == 0) ?
-                    noteNumber + chordStructure.GetRandomMinorNote() :
-                    noteNumber + chordStructure.GetRandomMajorNote();
+            if(chordMode) {
+                int chordIntervals[chordArrayLength];
+                int * intervalsPointer = chordStructure.GetChord(chordIntervals);
 
-            m = MidiMessage::noteOn(m.getChannel(), noteNumber, m.getFloatVelocity());
-            cachedNote = m;
-            
-            processedMidi.addEvent(m, time);
+                for(int i = 0;i<chordArrayLength;i++) {
+                    if(intervalsPointer[i] == 0)
+                        break;
+
+                    int interval = m.getNoteNumber() + intervalsPointer[i];
+                    MidiMessage n = MidiMessage::noteOn(m.getChannel(), interval, m.getFloatVelocity());
+                    processedMidi.addEvent(n, time);
+                }
+            }
+            else {
+                noteNumber = (modeSlider == 0) ?
+                        noteNumber + chordStructure.GetRandomMinorNote() :
+                        noteNumber + chordStructure.GetRandomMajorNote();
+
+                m = MidiMessage::noteOn(m.getChannel(), noteNumber, m.getFloatVelocity());
+                cachedNote = m;
+
+                processedMidi.addEvent(m, time);
+            }
         }
         
         else if(m.isNoteOff())
@@ -182,6 +203,10 @@ void TestAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& mi
         }
     }
     midiMessages.swapWith(processedMidi);
+}
+
+int TestAudioProcessor::getInterval(int noteNumber, const int *chordIntervals, int i) const {
+    return noteNumber + chordIntervals[i];
 }
 
 //==============================================================================

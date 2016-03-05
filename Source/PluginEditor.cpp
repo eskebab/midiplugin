@@ -15,10 +15,11 @@
 //==============================================================================
 TestAudioProcessorEditor::TestAudioProcessorEditor (TestAudioProcessor& p)
     : AudioProcessorEditor (&p), pluginProcessor (p)
+
 {
     // Make sure that before the constructor has finished, you've set the
     // editor's size to whatever you need it to be.
-    setSize (200, 200);
+    setSize (300, 300);
     
     // not the issue:
     addAndMakeVisible (&key);
@@ -37,11 +38,17 @@ TestAudioProcessorEditor::TestAudioProcessorEditor (TestAudioProcessor& p)
     mode.setPopupDisplayEnabled (true, this);
     mode.setTextValueSuffix ("Mode");
     mode.setValue(0.0);
-    
+
+    // chord mode button
+    toggleChordMode.setButtonText("Chord mode");
+    addAndMakeVisible(&toggleChordMode);
+
     // add the listener to the slider
     
     mode.addListener (this);
     key.addListener (this);
+
+    toggleChordMode.addListener (this);
 }
 
 void TestAudioProcessorEditor::sliderValueChanged (Slider* slider)
@@ -52,6 +59,11 @@ void TestAudioProcessorEditor::sliderValueChanged (Slider* slider)
     else if(slider == &mode) {
         pluginProcessor.modeSlider = mode.getValue();
     }
+}
+
+void TestAudioProcessorEditor::buttonClicked(Button * button){
+
+    pluginProcessor.chordMode = button->getToggleState();
 }
 
 TestAudioProcessorEditor::~TestAudioProcessorEditor()
@@ -65,7 +77,7 @@ void TestAudioProcessorEditor::paint (Graphics& g)
 
     g.setColour (Colours::black);
     g.setFont (15.0f);
-    g.drawFittedText ("Snurmel FX", getLocalBounds(), Justification::centred, 1);
+    g.drawFittedText ("Midiplugin", getLocalBounds(), Justification::centred, 1);
 }
 
 void TestAudioProcessorEditor::resized()
@@ -75,7 +87,7 @@ void TestAudioProcessorEditor::resized()
     
     // sets the position and size of the slider with arguments (x, y, width, height)
     
-    
     mode.setBounds (40, 80, 40, 40);
     key.setBounds (40, 30, 40, 40);
+    toggleChordMode.setBounds (40, 200, 80, 80);
 }

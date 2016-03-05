@@ -26,3 +26,13 @@ int Chord::GetRandomMajorNote() {
 
     return majorNoteIntervals[index];
 }
+
+int* Chord::GetChord(int * chordArray) {
+
+    chordArray[0] = 4;
+    chordArray[1] = 7;
+    chordArray[2] = 12;
+    chordArray[3] = 0;
+
+    return chordArray;
+}

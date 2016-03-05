@@ -73,10 +73,13 @@ public:
     // listener variables
     float keySlider;
     float modeSlider;
+    bool chordMode;
     
 private:
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TestAudioProcessor)
+
+    int getInterval(int noteNumber, const int *chordIntervals, int i) const;
 };
 
 

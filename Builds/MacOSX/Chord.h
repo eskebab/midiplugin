@@ -17,6 +17,7 @@ public:
     
     int GetRandomMinorNote();
     int GetRandomMajorNote();
+    int *GetChord(int * chordArray);
 };
 
 
