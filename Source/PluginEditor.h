@@ -38,6 +38,7 @@ private:
     
     Slider key;
     Slider mode;
+    Slider chordChooser;
     ToggleButton toggleChordMode;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TestAudioProcessorEditor)

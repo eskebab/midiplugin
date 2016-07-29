@@ -136,6 +136,12 @@ void TestAudioProcessor::releaseResources()
     // spare memory, etc.
 }
 
+void TestAudioProcessor::GetChords()
+{
+    Chord::ReadChords();
+
+}
+
 void TestAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& midiMessages)
 {
     // In case we have more outputs than inputs, this code clears any output
@@ -151,7 +157,7 @@ void TestAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& mi
     int time;
     MidiMessage m;
     
-    std::cout << "mode slider: ";
+    /*std::cout << "mode slider: ";
     std::cout << modeSlider;
     std::cout << "\n";
     
@@ -162,8 +168,8 @@ void TestAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& mi
     std::cout << "chord button: ";
     std::cout << chordMode;
     std::cout << "\n";
-
-
+*/
+    String t4;
     int chordArrayLength = 6;
     
     for(MidiBuffer::Iterator i (midiMessages); i.getNextEvent(m, time);)
@@ -173,7 +179,10 @@ void TestAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& mi
 
             if(chordMode) {
                 int chordIntervals[chordArrayLength];
-                int * intervalsPointer = chordStructure.GetChord(chordIntervals);
+
+                chordStructure.ReadChords();
+
+                int * intervalsPointer = chordStructure.GetChord(chordIntervals, chordChooser);
 
                 for(int i = 0;i<chordArrayLength;i++) {
                     if(intervalsPointer[i] == 0)

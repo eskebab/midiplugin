@@ -7,7 +7,20 @@
 //
 
 #include "Chord.h"
-#include <iostream>
+
+
+Chord::Chord() {
+    ChordDTO chord1{"minor1"};
+    ChordDTO chord2{"major1"};
+
+    int intervals[] = {3,7,10,0};
+    chord1.intervals.assign(intervals, intervals + 4);
+    int intervals2[] = {4,7,11,0};
+    chord2.intervals.assign(intervals2, intervals2 + 4);
+
+    this->addChord(chord1);
+    this->addChord(chord2);
+}
 
 int Chord::GetRandomMinorNote() {
     
@@ -27,12 +40,21 @@ int Chord::GetRandomMajorNote() {
     return majorNoteIntervals[index];
 }
 
-int* Chord::GetChord(int * chordArray) {
-
+int* Chord::GetChord(int * chordArray, int chordNumber) {
+     int * test = &chords.at(chordNumber).intervals[0];
+/*
     chordArray[0] = 4;
     chordArray[1] = 7;
     chordArray[2] = 12;
     chordArray[3] = 0;
+*/
+    return test;
+}
 
-    return chordArray;
+void Chord::ReadChords() {
+
+}
+
+void Chord::addChord(ChordDTO dto) {
+    this->chords.push_back(dto);
 }

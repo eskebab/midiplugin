@@ -25,7 +25,7 @@ TestAudioProcessorEditor::TestAudioProcessorEditor (TestAudioProcessor& p)
     addAndMakeVisible (&key);
     key.setSliderStyle (Slider::Rotary);
     key.setRange(0.0, 12.0, 1.0);
-    key.setTextBoxStyle (Slider::NoTextBox, false, 90, 0);
+    key.setTextBoxStyle (Slider::NoTextBox, false, 90, 90);
     key.setPopupDisplayEnabled (true, this);
     key.setTextValueSuffix ("Key");
     key.setValue(0.0);
@@ -34,10 +34,18 @@ TestAudioProcessorEditor::TestAudioProcessorEditor (TestAudioProcessor& p)
     addAndMakeVisible (&mode);
     mode.setSliderStyle (Slider::Rotary);
     mode.setRange(0.0, 1.0, 1.0);
-    mode.setTextBoxStyle (Slider::NoTextBox, false, 90, 0);
+    mode.setTextBoxStyle (Slider::NoTextBox, false, 90, 90);
     mode.setPopupDisplayEnabled (true, this);
     mode.setTextValueSuffix ("Mode");
     mode.setValue(0.0);
+
+    addAndMakeVisible(&chordChooser);
+    chordChooser.setSliderStyle (Slider::Rotary);
+    chordChooser.setRange(0.0, 1.0, 1.0);
+    chordChooser.setTextBoxStyle (Slider::NoTextBox, false, 90, 90);
+    chordChooser.setPopupDisplayEnabled (true, this);
+    chordChooser.setTextValueSuffix ("chordChooser");
+    chordChooser.setValue(0.0);
 
     // chord mode button
     toggleChordMode.setButtonText("Chord mode");
@@ -47,7 +55,7 @@ TestAudioProcessorEditor::TestAudioProcessorEditor (TestAudioProcessor& p)
     
     mode.addListener (this);
     key.addListener (this);
-
+    chordChooser.addListener(this);
     toggleChordMode.addListener (this);
 }
 
@@ -58,6 +66,9 @@ void TestAudioProcessorEditor::sliderValueChanged (Slider* slider)
     }
     else if(slider == &mode) {
         pluginProcessor.modeSlider = mode.getValue();
+    }
+    else if(slider == &chordChooser) {
+        pluginProcessor.chordChooser = chordChooser.getValue();
     }
 }
 
@@ -89,5 +100,6 @@ void TestAudioProcessorEditor::resized()
     
     mode.setBounds (40, 80, 40, 40);
     key.setBounds (40, 30, 40, 40);
+    chordChooser.setBounds(160, 200, 40, 40);
     toggleChordMode.setBounds (40, 200, 80, 80);
 }

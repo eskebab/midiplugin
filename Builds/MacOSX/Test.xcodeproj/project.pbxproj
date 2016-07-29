@@ -711,6 +711,7 @@
 		AD7DCAF7D03DB6882A36B339 /* juce_ToolbarItemFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = juce_ToolbarItemFactory.h; path = "../../../JUCE-OSX/modules/juce_gui_basics/widgets/juce_ToolbarItemFactory.h"; sourceTree = SOURCE_ROOT; };
 		AE162BE7213D49FA9FBF7DB8 /* juce_FileSearchPathListComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = juce_FileSearchPathListComponent.h; path = "../../../JUCE-OSX/modules/juce_gui_basics/filebrowser/juce_FileSearchPathListComponent.h"; sourceTree = SOURCE_ROOT; };
 		AE1C75491E016EEADA482A52 /* chords.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chords.json; sourceTree = "<group>"; };
+		AE1C761B8B95D2EFEFE26BAF /* ChordDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChordDTO.h; sourceTree = "<group>"; };
 		AE3E6035AF054199E1BE2655 /* juce_RelativeTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = juce_RelativeTime.h; path = "../../../JUCE-OSX/modules/juce_core/time/juce_RelativeTime.h"; sourceTree = SOURCE_ROOT; };
 		AE59D014C3DE7BF11B179F39 /* juce_android_Midi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = juce_android_Midi.cpp; path = "../../../JUCE-OSX/modules/juce_audio_devices/native/juce_android_Midi.cpp"; sourceTree = SOURCE_ROOT; };
 		AEE9EBC69C9650E44FB79FF2 /* juce_ConnectedChildProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = juce_ConnectedChildProcess.h; path = "../../../JUCE-OSX/modules/juce_events/interprocess/juce_ConnectedChildProcess.h"; sourceTree = SOURCE_ROOT; };
@@ -2181,6 +2182,7 @@
 				21EC5F5F1B7795D5006F56B7 /* Chord.cpp */,
 				21EC5F601B7795D5006F56B7 /* Chord.h */,
 				AE1C75491E016EEADA482A52 /* chords.json */,
+				AE1C761B8B95D2EFEFE26BAF /* ChordDTO.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
