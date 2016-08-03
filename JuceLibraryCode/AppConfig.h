@@ -213,13 +213,13 @@
  #define JucePlugin_Build_AAX              0
 #endif
 #ifndef  JucePlugin_Name
- #define JucePlugin_Name                   "Test"
+ #define JucePlugin_Name                   "Midi Shrimp"
 #endif
 #ifndef  JucePlugin_Desc
- #define JucePlugin_Desc                   "Test"
+ #define JucePlugin_Desc                   "Midi Shrimp"
 #endif
 #ifndef  JucePlugin_Manufacturer
- #define JucePlugin_Manufacturer           "yourcompany"
+ #define JucePlugin_Manufacturer           "espengulbrandsen.com"
 #endif
 #ifndef  JucePlugin_ManufacturerWebsite
  #define JucePlugin_ManufacturerWebsite    ""

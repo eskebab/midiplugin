@@ -25,26 +25,21 @@ TestAudioProcessorEditor::TestAudioProcessorEditor (TestAudioProcessor& p)
     addAndMakeVisible (&key);
     key.setSliderStyle (Slider::Rotary);
     key.setRange(0.0, 12.0, 1.0);
-    key.setTextBoxStyle (Slider::NoTextBox, false, 90, 90);
-    key.setPopupDisplayEnabled (true, this);
-    key.setTextValueSuffix ("Key");
+    key.setTextBoxStyle (Slider::TextBoxLeft, false, 140, 90);
     key.setValue(0.0);
     
     // these define the parameters of our slider object
     addAndMakeVisible (&mode);
     mode.setSliderStyle (Slider::Rotary);
     mode.setRange(0.0, 1.0, 1.0);
-    mode.setTextBoxStyle (Slider::NoTextBox, false, 90, 90);
-    mode.setPopupDisplayEnabled (true, this);
-    mode.setTextValueSuffix ("Mode");
+    mode.setTextBoxStyle (Slider::TextBoxLeft, false, 140, 90);
+    mode.setTextValueSuffix();
     mode.setValue(0.0);
 
     addAndMakeVisible(&chordChooser);
     chordChooser.setSliderStyle (Slider::Rotary);
     chordChooser.setRange(0.0, 1.0, 1.0);
-    chordChooser.setTextBoxStyle (Slider::NoTextBox, false, 90, 90);
-    chordChooser.setPopupDisplayEnabled (true, this);
-    chordChooser.setTextValueSuffix ("chordChooser");
+    chordChooser.setTextBoxStyle (Slider::TextBoxLeft, false, 140, 90);
     chordChooser.setValue(0.0);
 
     // chord mode button
@@ -88,7 +83,10 @@ void TestAudioProcessorEditor::paint (Graphics& g)
 
     g.setColour (Colours::black);
     g.setFont (15.0f);
-    g.drawFittedText ("Midiplugin", getLocalBounds(), Justification::centred, 1);
+    g.drawFittedText ("Midi Shrimp", getLocalBounds(), Justification::centred, 1);
+    g.drawText("Key", 120, 30, 40, 40, Justification::left, true);
+    g.drawText("Mode", 120, 80, 40, 40, Justification::left, true);
+    g.drawText("Chord", 250, 200, 40, 40, Justification::left, true);
 }
 
 void TestAudioProcessorEditor::resized()
@@ -98,8 +96,8 @@ void TestAudioProcessorEditor::resized()
     
     // sets the position and size of the slider with arguments (x, y, width, height)
     
-    mode.setBounds (40, 80, 40, 40);
-    key.setBounds (40, 30, 40, 40);
-    chordChooser.setBounds(160, 200, 40, 40);
+    mode.setBounds (10, 80, 100, 40);
+    key.setBounds (10, 30, 100, 40);
+    chordChooser.setBounds(160, 200, 100, 40);
     toggleChordMode.setBounds (40, 200, 80, 80);
 }

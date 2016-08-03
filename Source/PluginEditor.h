@@ -39,6 +39,9 @@ private:
     Slider key;
     Slider mode;
     Slider chordChooser;
+    Label keyLabel;
+    Label modeLabel;
+    Label chordLabel;
     ToggleButton toggleChordMode;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TestAudioProcessorEditor)

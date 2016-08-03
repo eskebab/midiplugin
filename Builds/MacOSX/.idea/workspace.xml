@@ -25,31 +25,126 @@
         <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PluginProcessor.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.6203475">
-              <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
               <folding>
-                <element signature="e#294#322#0" expanded="true" />
-                <element signature="e#1764#1777#0" expanded="true" />
+                <element signature="e#291#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="juce_AU_Wrapper.mm" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/JUCE-OSX/modules/juce_audio_plugin_client/AU/juce_AU_Wrapper.mm">
+      <file leaf-file-name="juce_Slider.h" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/JUCE-OSX/modules/juce_gui_basics/widgets/juce_Slider.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="86.111115">
+              <caret line="121" column="62" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PluginProcessor.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="872" column="39" selection-start-line="872" selection-start-column="39" selection-end-line="872" selection-end-column="39" />
+              <caret line="163" column="32" selection-start-line="163" selection-start-column="32" selection-end-line="163" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="juce_Slider.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/JUCE-OSX/modules/juce_gui_basics/widgets/juce_Slider.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7098646">
+              <caret line="430" column="63" selection-start-line="430" selection-start-column="63" selection-end-line="430" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#922#0" expanded="false" />
+                <element signature="e#1180#2395#0" expanded="false" />
+                <element signature="e#2583#2819#0" expanded="false" />
+                <element signature="e#2825#3035#0" expanded="false" />
+                <element signature="e#3041#3251#0" expanded="false" />
+                <element signature="e#3257#3472#0" expanded="false" />
+                <element signature="e#3478#3718#0" expanded="false" />
+                <element signature="e#3724#3982#0" expanded="false" />
+                <element signature="e#5132#5418#0" expanded="false" />
+                <element signature="e#6814#8113#0" expanded="false" />
+                <element signature="e#8119#9429#0" expanded="false" />
+                <element signature="e#9435#10320#0" expanded="false" />
+                <element signature="e#10326#10650#0" expanded="false" />
+                <element signature="e#10656#10980#0" expanded="false" />
+                <element signature="e#10986#11312#0" expanded="false" />
+                <element signature="e#11318#11700#0" expanded="false" />
+                <element signature="e#11706#12017#0" expanded="false" />
+                <element signature="e#12023#12364#0" expanded="false" />
+                <element signature="e#12370#12634#1" expanded="false" />
+                <element signature="e#12641#12970#0" expanded="false" />
+                <element signature="e#12976#13514#0" expanded="false" />
+                <element signature="e#14250#14591#0" expanded="false" />
+                <element signature="e#14597#15116#0" expanded="false" />
+                <element signature="e#15122#15332#0" expanded="false" />
+                <element signature="e#15338#15888#0" expanded="false" />
+                <element signature="e#15894#16268#0" expanded="false" />
+                <element signature="e#16274#16540#0" expanded="false" />
+                <element signature="e#16546#16748#0" expanded="false" />
+                <element signature="e#16754#17438#0" expanded="false" />
+                <element signature="e#17444#17661#0" expanded="false" />
+                <element signature="e#17667#17856#0" expanded="false" />
+                <element signature="e#17862#18127#0" expanded="false" />
+                <element signature="e#18310#20523#0" expanded="false" />
+                <element signature="e#20529#21479#0" expanded="false" />
+                <element signature="e#21485#22112#0" expanded="false" />
+                <element signature="e#22118#23157#0" expanded="false" />
+                <element signature="e#23163#24889#0" expanded="false" />
+                <element signature="e#24895#26880#0" expanded="false" />
+                <element signature="e#26886#28586#0" expanded="false" />
+                <element signature="e#30535#33084#0" expanded="false" />
+                <element signature="e#33090#33887#0" expanded="false" />
+                <element signature="e#33893#34122#0" expanded="false" />
+                <element signature="e#34128#34330#0" expanded="false" />
+                <element signature="e#34336#34729#0" expanded="false" />
+                <element signature="e#34735#36277#0" expanded="false" />
+                <element signature="e#36283#36476#0" expanded="false" />
+                <element signature="e#36482#36699#0" expanded="false" />
+                <element signature="e#36705#38867#0" expanded="false" />
+                <element signature="e#38873#40358#0" expanded="false" />
+                <element signature="e#40364#43904#0" expanded="false" />
+                <element signature="e#43910#44832#0" expanded="false" />
+                <element signature="e#46476#46788#0" expanded="false" />
+                <element signature="e#46798#47060#0" expanded="false" />
+                <element signature="e#47070#47224#0" expanded="false" />
+                <element signature="e#47234#47399#0" expanded="false" />
+                <element signature="e#47409#47507#0" expanded="false" />
+                <element signature="e#47769#48104#0" expanded="false" />
+                <element signature="e#48110#48253#0" expanded="false" />
+                <element signature="e#48255#48356#0" expanded="false" />
+                <element signature="e#48358#48459#0" expanded="false" />
+                <element signature="e#49330#49529#0" expanded="false" />
+                <element signature="e#50126#50502#0" expanded="false" />
+                <element signature="e#50687#50840#0" expanded="false" />
+                <element signature="e#50946#51131#0" expanded="false" />
+                <element signature="e#51574#51852#0" expanded="false" />
+                <element signature="e#52292#52428#0" expanded="false" />
+                <element signature="e#52666#52864#0" expanded="false" />
+                <element signature="e#53558#53675#0" expanded="false" />
+                <element signature="e#53989#54115#0" expanded="false" />
+                <element signature="e#54264#54455#0" expanded="false" />
+                <element signature="e#54457#54648#0" expanded="false" />
+                <element signature="e#54650#54835#0" expanded="false" />
+                <element signature="e#54837#55055#0" expanded="false" />
+                <element signature="e#55057#55222#0" expanded="false" />
+                <element signature="e#55280#55378#0" expanded="false" />
+                <element signature="e#55380#55455#0" expanded="false" />
+                <element signature="e#55457#55689#0" expanded="false" />
+                <element signature="e#55691#56066#0" expanded="false" />
+                <element signature="e#56068#56338#0" expanded="false" />
+                <element signature="e#56340#56562#0" expanded="false" />
+                <element signature="e#56564#56653#0" expanded="false" />
+                <element signature="e#58059#58196#0" expanded="false" />
+                <element signature="e#58198#58297#0" expanded="false" />
+                <element signature="e#58299#58408#0" expanded="false" />
+                <element signature="e#58410#58602#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,18 +197,10 @@
         <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JuceHeader.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../JuceLibraryCode/JuceHeader.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+              <folding>
+                <element signature="e#356#398#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,12 +224,14 @@
       <list>
         <option value="$PROJECT_DIR$/chords.json" />
         <option value="$PROJECT_DIR$/../../Source/PluginProcessor.h" />
-        <option value="$PROJECT_DIR$/../../Source/PluginEditor.h" />
-        <option value="$PROJECT_DIR$/../../Source/PluginEditor.cpp" />
         <option value="$PROJECT_DIR$/ChordDTO.h" />
         <option value="$PROJECT_DIR$/Chord.h" />
         <option value="$PROJECT_DIR$/../../Source/PluginProcessor.cpp" />
         <option value="$PROJECT_DIR$/Chord.cpp" />
+        <option value="$PROJECT_DIR$/../../JuceLibraryCode/AppConfig.h" />
+        <option value="$PROJECT_DIR$/../../Source/PluginEditor.h" />
+        <option value="$PROJECT_DIR$/../../Source/PluginEditor.cpp" />
+        <option value="$USER_HOME$/JUCE-OSX/modules/juce_gui_basics/widgets/juce_Slider.cpp" />
       </list>
     </option>
   </component>
@@ -181,7 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,12 +281,18 @@
               <option name="myItemId" value="Test" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,9 +305,72 @@
               <option name="myItemId" value="Test" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juce Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juce Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="juce_gui_basics" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juce Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="juce_gui_basics" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Juce Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="juce_graphics" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,7 +438,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44548652" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
@@ -291,11 +448,11 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46307153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34701055" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -322,53 +479,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="46" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$USER_HOME$/JUCE-OSX/modules/juce_gui_basics/widgets/juce_Slider.cpp</url>
+          <line>62</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$USER_HOME$/JUCE-OSX/modules/juce_gui_basics/widgets/juce_Slider.cpp</url>
+          <line>1506</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="30" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
-          <folding>
-            <element signature="e#294#322#0" expanded="true" />
-            <element signature="e#1764#1777#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/JUCE-OSX/modules/juce_audio_plugin_client/AU/juce_AU_Wrapper.mm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="872" column="39" selection-start-line="872" selection-start-column="39" selection-end-line="872" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chord.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chord.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#129#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/JUCE-OSX/modules/juce_audio_basics/juce_audio_basics.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -384,7 +515,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#356#398#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -402,7 +535,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#291#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -410,7 +545,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#291#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -419,8 +556,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
           <folding>
-            <element signature="e#294#322#0" expanded="true" />
-            <element signature="e#1764#1777#0" expanded="true" />
+            <element signature="e#294#322#0" expanded="false" />
+            <element signature="e#1764#1777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -437,7 +574,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="e#356#398#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,7 +594,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#291#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -464,8 +605,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
           <folding>
-            <element signature="e#294#322#0" expanded="true" />
-            <element signature="e#1764#1777#0" expanded="true" />
+            <element signature="e#294#322#0" expanded="false" />
+            <element signature="e#1764#1777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -482,7 +623,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="e#356#398#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,7 +643,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#291#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -508,7 +653,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="e#356#398#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -533,7 +680,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#291#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -541,7 +690,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#291#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -550,8 +701,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
           <folding>
-            <element signature="e#294#322#0" expanded="true" />
-            <element signature="e#1764#1777#0" expanded="true" />
+            <element signature="e#294#322#0" expanded="false" />
+            <element signature="e#1764#1777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,7 +735,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#291#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -593,8 +746,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
           <folding>
-            <element signature="e#294#322#0" expanded="true" />
-            <element signature="e#1764#1777#0" expanded="true" />
+            <element signature="e#294#322#0" expanded="false" />
+            <element signature="e#1764#1777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,45 +823,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/JUCE-OSX/modules/juce_audio_plugin_client/AU/juce_AU_Wrapper.mm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="872" column="39" selection-start-line="872" selection-start-column="39" selection-end-line="872" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../JuceLibraryCode/JuceHeader.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="33" selection-start-line="102" selection-start-column="33" selection-end-line="102" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#365#407#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,6 +859,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../JuceLibraryCode/AppConfig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36672968">
+          <caret line="281" column="47" selection-start-line="281" selection-start-column="47" selection-end-line="281" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/JUCE-OSX/modules/juce_audio_plugin_client/AU/juce_AU_Wrapper.mm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33266932">
+          <caret line="902" column="25" selection-start-line="902" selection-start-column="20" selection-end-line="902" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chord.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -749,13 +883,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#365#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="e#356#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.xcodeproj/project.pbxproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29787233">
+          <caret line="921" column="196" selection-start-line="921" selection-start-column="196" selection-end-line="921" selection-end-column="196" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Source/PluginEditor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding>
+            <element signature="e#291#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Source/PluginProcessor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.6203475">
-          <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="163" column="32" selection-start-line="163" selection-start-column="32" selection-end-line="163" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/JUCE-OSX/modules/juce_gui_basics/widgets/juce_Slider.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="86.111115">
+          <caret line="121" column="62" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/JUCE-OSX/modules/juce_gui_basics/widgets/juce_Slider.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7098646">
+          <caret line="430" column="63" selection-start-line="430" selection-start-column="63" selection-end-line="430" selection-end-column="63" />
           <folding>
-            <element signature="e#294#322#0" expanded="true" />
-            <element signature="e#1764#1777#0" expanded="true" />
+            <element signature="e#0#922#0" expanded="false" />
+            <element signature="e#1180#2395#0" expanded="false" />
+            <element signature="e#2583#2819#0" expanded="false" />
+            <element signature="e#2825#3035#0" expanded="false" />
+            <element signature="e#3041#3251#0" expanded="false" />
+            <element signature="e#3257#3472#0" expanded="false" />
+            <element signature="e#3478#3718#0" expanded="false" />
+            <element signature="e#3724#3982#0" expanded="false" />
+            <element signature="e#5132#5418#0" expanded="false" />
+            <element signature="e#6814#8113#0" expanded="false" />
+            <element signature="e#8119#9429#0" expanded="false" />
+            <element signature="e#9435#10320#0" expanded="false" />
+            <element signature="e#10326#10650#0" expanded="false" />
+            <element signature="e#10656#10980#0" expanded="false" />
+            <element signature="e#10986#11312#0" expanded="false" />
+            <element signature="e#11318#11700#0" expanded="false" />
+            <element signature="e#11706#12017#0" expanded="false" />
+            <element signature="e#12023#12364#0" expanded="false" />
+            <element signature="e#12370#12634#1" expanded="false" />
+            <element signature="e#12641#12970#0" expanded="false" />
+            <element signature="e#12976#13514#0" expanded="false" />
+            <element signature="e#14250#14591#0" expanded="false" />
+            <element signature="e#14597#15116#0" expanded="false" />
+            <element signature="e#15122#15332#0" expanded="false" />
+            <element signature="e#15338#15888#0" expanded="false" />
+            <element signature="e#15894#16268#0" expanded="false" />
+            <element signature="e#16274#16540#0" expanded="false" />
+            <element signature="e#16546#16748#0" expanded="false" />
+            <element signature="e#16754#17438#0" expanded="false" />
+            <element signature="e#17444#17661#0" expanded="false" />
+            <element signature="e#17667#17856#0" expanded="false" />
+            <element signature="e#17862#18127#0" expanded="false" />
+            <element signature="e#18310#20523#0" expanded="false" />
+            <element signature="e#20529#21479#0" expanded="false" />
+            <element signature="e#21485#22112#0" expanded="false" />
+            <element signature="e#22118#23157#0" expanded="false" />
+            <element signature="e#23163#24889#0" expanded="false" />
+            <element signature="e#24895#26880#0" expanded="false" />
+            <element signature="e#26886#28586#0" expanded="false" />
+            <element signature="e#30535#33084#0" expanded="false" />
+            <element signature="e#33090#33887#0" expanded="false" />
+            <element signature="e#33893#34122#0" expanded="false" />
+            <element signature="e#34128#34330#0" expanded="false" />
+            <element signature="e#34336#34729#0" expanded="false" />
+            <element signature="e#34735#36277#0" expanded="false" />
+            <element signature="e#36283#36476#0" expanded="false" />
+            <element signature="e#36482#36699#0" expanded="false" />
+            <element signature="e#36705#38867#0" expanded="false" />
+            <element signature="e#38873#40358#0" expanded="false" />
+            <element signature="e#40364#43904#0" expanded="false" />
+            <element signature="e#43910#44832#0" expanded="false" />
+            <element signature="e#46476#46788#0" expanded="false" />
+            <element signature="e#46798#47060#0" expanded="false" />
+            <element signature="e#47070#47224#0" expanded="false" />
+            <element signature="e#47234#47399#0" expanded="false" />
+            <element signature="e#47409#47507#0" expanded="false" />
+            <element signature="e#47769#48104#0" expanded="false" />
+            <element signature="e#48110#48253#0" expanded="false" />
+            <element signature="e#48255#48356#0" expanded="false" />
+            <element signature="e#48358#48459#0" expanded="false" />
+            <element signature="e#49330#49529#0" expanded="false" />
+            <element signature="e#50126#50502#0" expanded="false" />
+            <element signature="e#50687#50840#0" expanded="false" />
+            <element signature="e#50946#51131#0" expanded="false" />
+            <element signature="e#51574#51852#0" expanded="false" />
+            <element signature="e#52292#52428#0" expanded="false" />
+            <element signature="e#52666#52864#0" expanded="false" />
+            <element signature="e#53558#53675#0" expanded="false" />
+            <element signature="e#53989#54115#0" expanded="false" />
+            <element signature="e#54264#54455#0" expanded="false" />
+            <element signature="e#54457#54648#0" expanded="false" />
+            <element signature="e#54650#54835#0" expanded="false" />
+            <element signature="e#54837#55055#0" expanded="false" />
+            <element signature="e#55057#55222#0" expanded="false" />
+            <element signature="e#55280#55378#0" expanded="false" />
+            <element signature="e#55380#55455#0" expanded="false" />
+            <element signature="e#55457#55689#0" expanded="false" />
+            <element signature="e#55691#56066#0" expanded="false" />
+            <element signature="e#56068#56338#0" expanded="false" />
+            <element signature="e#56340#56562#0" expanded="false" />
+            <element signature="e#56564#56653#0" expanded="false" />
+            <element signature="e#58059#58196#0" expanded="false" />
+            <element signature="e#58198#58297#0" expanded="false" />
+            <element signature="e#58299#58408#0" expanded="false" />
+            <element signature="e#58410#58602#0" expanded="false" />
           </folding>
         </state>
       </provider>
